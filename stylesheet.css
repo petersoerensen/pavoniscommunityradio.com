@@ -6,7 +6,7 @@
 .menu a{
   background-color: red; /* red background color */
   color: black; /* Black text color */
-  display: inline; /* Make the links appear below each other */
+  display: inline-block; /* Make the links appear below each other */
   padding: 8px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
 }
