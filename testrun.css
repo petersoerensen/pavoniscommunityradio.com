@@ -14,10 +14,8 @@
 
 .header{
   position: relative;
-  height: 40px;
   border-bottom: 1px solid #c90000;
-  background-color: red;
-
+  z-score: 100;
 }
 
 .navbar a:hover {
@@ -36,7 +34,7 @@
   position: fixed; /*Sticky */
   top: 100; /* Top Padding*/
   width: 100%; /*Fills out all of the window*/
-  height: 30px;
+  height: 40px;
 
 }
 
@@ -47,10 +45,12 @@ section {
 }
 
 .container_page{
+  z-score: 80;
 }
 
 .container_content{
   position: absolute;
   margin-left: 100px;
   margin-right: 40px;
+  z-score:80;
 }
