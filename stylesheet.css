@@ -1,5 +1,5 @@
 body{
-margin-top: 0px;
+  margin-top: 0px;
 }
 
 .header{
@@ -31,4 +31,21 @@ margin-top: 0px;
   height: 40px;
   z-index: 10;
   padding-left: 50px;
+}
+
+section {
+  margin-top: 10px;
+  border-top: 1px solid #c90000;
+  display: grid;
+}
+
+.container_page{
+  z-index: 8;
+}
+
+.container_content{
+  position: absolute;
+  margin-left: 120px;
+  margin-right: 100px;
+  z-index: 8;
 }
