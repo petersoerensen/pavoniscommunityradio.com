@@ -19,6 +19,7 @@ body{
 .header{
   position: relative;
   border-bottom: 1px solid #c90000;
+  height: 40px;
   z-score: 100;
 }
 
