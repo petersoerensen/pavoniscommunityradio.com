@@ -20,7 +20,7 @@ body{
   position: relative;
   border-bottom: 1px solid #c90000;
   height: 40px;
-  z-score: 100;
+  z-index: 100;
 }
 
 .navbar a:hover {
@@ -50,12 +50,12 @@ section {
 }
 
 .container_page{
-  z-score: 80;
+  z-index: 80;
 }
 
 .container_content{
   position: absolute;
   margin-left: 100px;
   margin-right: 40px;
-  z-score:80;
+  z-index:80;
 }
