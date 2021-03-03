@@ -4,17 +4,23 @@ body{
 
 .vertical-menu {
   width: 100px; /* Set a width if you like */
-}
-
-.vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
+  height: 100%;
   display: block; /* Make the links appear below each other */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
-  position: fixed; /*Sticky*/
+  position: fixed; /* Sticky */
   overflow: visible;
+  background-color: #eee; /* Grey background color */
+  padding: 0px;
 }
+
+.vertical-menu a {
+  padding: inherit;
+  padding-left: 12px;
+  color: black; /* Black text color */
+
+}
+
 
 .header{
   position: relative;
