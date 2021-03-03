@@ -33,6 +33,25 @@ body{
   padding-left: 50px;
 }
 
+.vertical-menu {
+  width: 100px; /* Set a width if you like */
+  height: 100%;
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  position: fixed; /* Sticky */
+  overflow: visible;
+  background-color: #eee; /* Grey background color */
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.vertical-menu a {
+  padding: inherit;
+  padding-left: 12px;
+  color: black; /* Black text color */
+}
+
 section {
   margin-top: 10px;
   border-top: 1px solid #c90000;
