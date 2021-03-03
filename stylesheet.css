@@ -1,12 +1,30 @@
-.menu{
-  width: 100px; /* Set a width if you like */
-  /*float: left; /* Puts the menu on the left side */
+.header{
+  position: relative;
+  height: 40px;
 }
 
-.menu a{
-  background-color: red; /* red background color */
-  color: black; /* Black text color */
-  display: inline-block; /* Make the links appear below each other */
-  padding: 8px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
+.navbar a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.navbar a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.navbar a{
+  font-size: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar {
+  display: inline-block;
+  overflow: visible;
+  background-color: #eee; /* Grey background color */
+  position: fixed; /* Sticky */
+  width: 100%; /* Fills out all of the window */
+  height: 40px;
+  z-index: 10;
+  padding-left: 50px;
 }
